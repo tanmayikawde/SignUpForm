@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>Sign-up Form</title>
+    </head>
+    <body style="background-color: lavender;">
+
+        <img src="/TechGig.com_Logo.png" alt="TechGig" width="1000" height="200" >
+        <h1 align = "center">Sign-Up for Techgig Account</h1>
+        <fieldset>
+            <legend style="color: #708090;" >Personal Details</legend>
+            <label>First Name <input type="text" name="firstname" placeholder="firstname"></label>
+            <label>Last Name <input type="text" name="lastname" placeholder="lastname"></label>
+            <br><br>
+            <label>Phone number: <input type="text" name="Phone number" placeholder="phone number"></label>
+            <label for="start"> Date Of Birth: <input type="date" placeholder="dd-mm-yyyy" max="2020-12-31"></label>
+            <br><br>
+            <label>Gender:
+                <input type="radio" name="male" value=>Male
+                <input type="radio" name="female" value=
+                >Female
+            </label>
+
+        </fieldset>    
+        <br>
+        <fieldset>
+            <legend style="color: #708090;" >Account Details</legend>
+            <label>Email address: <input type="email" name="Email address"></label>
+            <br><br>
+            <label>Password: <input type="password" name="Password"></label>
+            <label>Re-type Password: <input type="password" name="Password"></label>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend style="color: #708090;">Purpose</legend>
+            <label > <input type="checkbox" value="personal"> For my personal use </label>
+            <label > <input type="checkbox" value="professional"> For professional work </label>
+        </fieldset>
+        <fieldset>
+            <label>Subscription Plan</label>
+            <select name="Plan">
+                <option value="1 month">1 month</option>
+                <option value="6 months"> 6 months</option>
+                <option value="12 months">12 months </option>
+            </select>
+        </fieldset>
+
+        <UL type="disc"> <h3>All plans Include: </h3> 
+            
+            <li>Unlimited repositories</li>
+            <li>Unlimited public collaborators</li>
+            <li>Unlimited disc space</li>
+        </UL>
+
+        <label><h1 align = "center">
+            <a href = "/Successfully.png"><input type="submit" value= "Sign Up"></a></h1>
+        </label>
+        <label><h1 align = "center"><input type="reset" value="reset"></h1></label>
+
+
+            
+        
+    </body>

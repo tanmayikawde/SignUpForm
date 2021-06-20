@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <title>Sign-up Form</title>
+
+        <link rel="stylesheet" href="Techgig.css">
+    </head>
+    <body>
+        <img src="/TechGig.com_Logo.png" alt="TechGig" >
+        <div id="title">
+            <h1>Sign-Up for Techgig Account</h1>
+        </div>
+        <div class="plans1">
+            <fieldset>
+                <legend >Personal Details</legend>
+                <label>First Name <input type="text" name="firstname" placeholder="firstname"></label>
+                <label>Last Name <input type="text" name="lastname" placeholder="lastname"></label>
+                <br><br>
+                <label>Phone number: <input type="text" name="Phone number" placeholder="phone number"></label>
+                <br><br>
+                <label>Address: </label>
+                <textarea name="address"  cols="60" rows="2"></textarea><br>
+                <label for="start"> Date Of Birth: <input type="date" placeholder="dd-mm-yyyy" max="2020-12-31"></label>
+                <br><br>
+                <div class="gender">
+                    <label>Gender:
+                    <input type="radio" name="male" value=>Male
+                    <input type="radio" name="female" value=>Female
+                    </label>
+                </div>
+            </fieldset>         
+        <br>
+            <fieldset><legend >Account Details</legend>
+            <label >Email address: <input type="email" name="Email address" placeholder="email address"></label>
+            <br><br>
+            <label>Password: <input type="password" name="Password"></label>
+            <label>Re-type Password: <input type="password" name="Password"></label>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend >Purpose</legend>
+                <label > <input type="checkbox" value="personal"> For my personal use </label>
+                <label > <input type="checkbox" value="professional"> For professional work </label>
+            
+            
+        </fieldset>
+        <fieldset>
+                <label>Subscription Plan</label>
+                <select name="Plan">
+                    <option value="1 month">1 month</option>
+                    <option value="6 months"> 6 months</option>
+                    <option value="12 months">12 months </option>
+                </select>
+            
+        </fieldset></div>
+        
+        <div class="plans">
+                <UL> <h3>All plans Include: </h3> 
+                    <li>Unlimited repositories</li>
+                    <li>Unlimited public collaborators</li>
+                    <li>Unlimited disc space</li>
+                </UL>
+        </div>
+        <div class="plans">
+                <UL > <h3>Teams Include: </h3> 
+                    <li>Create team-owned repositories</li>
+                    <li>Delegate administration</li>
+                    <li>Send email invitations</li>
+                    <li>Manage repository access via groups</li>
+                </UL>
+        </div>
+        <div class="signup">
+            <label><h1>
+            <a href = "/Successfully.png"><input class="button" type="submit" value= "Sign Up"></a>   <input class="button" type="reset" value="Reset"></h1>
+        </label>
+        </div> 
+
+    </body>
+</html>    
